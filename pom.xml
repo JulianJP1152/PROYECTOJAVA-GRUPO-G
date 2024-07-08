@@ -12,4 +12,18 @@
         <exec.mainClass>com.mycompany.proyectojava.PROYECTOJAVA</exec.mainClass>
     </properties>
     <name>PROYECTOJAVA-GRUPO G</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
